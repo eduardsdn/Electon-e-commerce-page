@@ -6,15 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Electon</title>
 </head>
 <body>
-    <div class="header">
 
+    <div class="header">
+        <div class="phone-number">
+            <p>Need help? Call us: (+98) 0234 456 789</p>
+        </div>
+        <div class="location-and-tracking">
+
+            <div class="our-store">
+                <img src="icons/location.svg">
+                <p>Our store</p>
+            </div>
+
+            <div class="track-order">
+                <img src="icons/delivery.svg">
+                <p>Track your order</p>
+            </div>
+
+        </div>
     </div>
 
     <div class="navigation">
+        <div class="navigation-left-section">
+            <div class="company-logo">
+                <img src="company-logos/company-logo.svg">
+            </div>
+            <form action="post" class="search">
+                <input class="search-input" type="text" placeholder="Search any things">
+                <button class="searchBtn">Search</button>
+            </form>
+        </div>
 
+            <ul class="navigation-menu-right">
+                <li class="sign-in">
+                    <img src="icons/user.svg">
+                    <p>Sign in</p>
+                </li>
+                <li class="favorites">
+                    <div class="favorites-icons">
+                        <img src="icons/heart.svg">
+                        <div class="favorites-number">0</div>
+                    </div>
+                    <p>Favorites</p>
+                </li>
+                <li class="cart">
+                    <div class="cart-icons">
+                        <img src="icons/shopping-cart.svg">
+                        <div class="cart-number">0</div>
+                    </div>
+                    <p>Cart</p>
+                </li>
+            </ul>
     </div>
     
     <div class="catalog">

@@ -1,0 +1,176 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}`
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------------------------------------------- */
+
+/* Header */
+.header{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+    padding-left: 61px;
+    padding-right: 49px;
+    padding-bottom: 29px;
+}
+
+.phone-number {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.location-and-tracking{
+    display: flex;
+    gap: 36px;
+}
+
+.our-store, .track-order {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    gap:20px;
+}
+
+/* Navigation */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003F62;
+    padding-left: 67.79px;
+    padding-right: 67.79px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.navigation-left-section{
+    display: flex;
+    align-items: center;
+    gap:85px;
+}
+
+.company-logo {
+    width: 140px;
+    height: 39px;
+}
+
+.search-input{
+    width: 438px;
+    height: 56px;
+    border-radius: 20px;
+    border: inherit;
+}
+
+.search-input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #292D32;
+    margin-left: 25px;
+    position: absolute;
+    top: 17.5px;
+    left: 5px;
+}
+
+.searchBtn {
+    width: 132px;
+    height: 58px;
+    border-radius: 20px;
+    background-color:#EDA415;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: inherit;
+    position:absolute;
+    left: 605px;
+
+}
+
+.navigation-menu-right {
+    display: flex;
+    gap: 29px;
+}
+
+.favorites img {
+    margin-top: 6px;
+}
+.sign-in, .favorites, .cart {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.favorites-number, .cart-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.21px;
+    height: 15px;
+    background: #EDA415;
+    border-radius: 394.737px;
+    font-weight: 400;
+    font-size: 9.47368px;
+    line-height: 14px;
+}
+
+.favorites-icons, .cart-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
