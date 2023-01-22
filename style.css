@@ -840,3 +840,23 @@ table {
     justify-content: center;
     padding-top: 35px;
 }
+
+.partners{
+    display: flex;
+    justify-content: center;
+}
+
+.partners-wrapper{
+    width: 1317px;
+    height: 136px;
+    background-color: #E2F4FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 55.3px;
+}
+
+.partners-wrapper img{
+    width: 206.16px;
+    height: 41.23px;
+}
