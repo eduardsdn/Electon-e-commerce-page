@@ -785,4 +785,58 @@ table {
     line-height: 27px;
     color: #003F62;
 }
+/* customer feedback */
 
+.customer-feedback{
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.customer-feedback-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.customer-feedback-card{
+    width: 432.79px;
+    height: 242.1px;
+    border: 1px solid #BABABA;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26.17px;
+}
+
+.customer-feedback-card .top-section{
+    display: flex;
+    align-items: center;
+    width: 382.12px;
+    justify-content: flex-start;
+    gap: 37.39px;
+}
+
+.feedback-text{
+    text-align: left;
+    width: 342.12px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 13.1707px;
+    line-height: 20px;
+    color: #003F62;
+    background-color: #E2F4FF;
+    border-radius: 18.695px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bullet-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
