@@ -742,5 +742,47 @@ table {
     grid-column: 2 3;
 }
 
+.value-propositions{
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+.propositions-wrapper{
+    width: 1200px;
+    height: 155px;
+    background-color: #E2F4FF;
+    padding-left: 71px;
+    padding-right: 71px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
 
+.proposition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+}
+
+.proposition-text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.proposition-title {
+    font-weight: 600;
+    font-size: 22.09px;
+    line-height: 33px;
+    color: #003F62;
+}
+
+.proposition-minor-text {
+    font-weight: 400;
+    font-size: 18.09px;
+    line-height: 27px;
+    color: #003F62;
+}
 
